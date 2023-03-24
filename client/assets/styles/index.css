@@ -1,16 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
 
+body {
+    margin: 0;
+    font-family: monospace;
+    background-image: url("../images/diary-wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    /* filter: blur(8px); */
+
+}
+
+#container {
+    display: flex;
+    justify-content: end;
+    padding: 2;
+}
+
+
 #title {
     position: relative;
     font-family: 'Manrope', sans-serif;
     text-align: center;
 }
 
-title:after
-{
-    content:' ';
-    display:block;
-    border:2px solid black;
+title:after {
+    content: ' ';
+    display: block;
+    border: 2px solid black;
     border-bottom: 2px solid black;
 }
-
